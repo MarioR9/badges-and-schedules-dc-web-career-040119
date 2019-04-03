@@ -23,6 +23,10 @@ def assign_rooms(speakers)
   return l_speakers
 end 
 
-def printer(to_print)
+def printer(b_a_print)
+  batch_badge_creator(b_a_print)
+  assign_rooms(b_a_print).each do |i|
+    puts i
+    end
   
 end  
